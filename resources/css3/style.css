@@ -34,7 +34,7 @@ body {
 
 #content1 {
     text-align: center;
-    padding-top: 25%;
+    padding-top: 20%;
 }
 
 header {
@@ -47,7 +47,26 @@ header {
     height: 100vh;
 }
 
+header h1 {
+    font-size: 60px;
+}
+
 nav {
+    color: #fff;
+}
+
+
+/* ------- NAVBAR SETUP ------- */
+
+.navbar-light {
+    background-color: #3498db;
+}
+
+#brand1 {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
     color: #fff;
 }
 
