@@ -28,6 +28,11 @@ section {
     padding: 10px 5px;
 }
 
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
 /* ------- HEADINGS ------- */
 
 h1 {
@@ -100,6 +105,16 @@ input[type=submit]:active {
     color: #fff;
 }
 
+/* ------- ICONS ------- */
+
+.icon-big {
+    font-size: 400%;
+    display: block;
+    color: #3498db;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 36.6%;
+}
 
 /* ------------------------------------------------------------------- */
 /* HEADER */
@@ -143,6 +158,11 @@ nav {
     color: #fff;
 }
 
+.navbar-light .navbar-toggler-icon {
+    color: #fff;
+}
+
+
 /* ------- BUTTONS IN HEADER ------- */
 
 #btn1 {
@@ -151,3 +171,48 @@ nav {
 }
 
 
+/* ------------------------------------------------------------------- */
+/* ABOUT IMGL */
+/* ------------------------------------------------------------------- */
+
+.r1 h3 {
+    background-color: #3498db;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.r1 p {
+    border-bottom: 1px solid #3498db;
+    padding-bottom: 8px;
+}
+
+.about h2 {
+    padding-bottom: 2%;
+}
+
+.about h3,
+.about p {
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.box1,
+.box2,
+.box3 {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.box3 {
+    margin-left: 10%;
+    margin-top: -50px;
+}
+
+.box2 {
+    margin-left: 12.5%;
+}
+
+.box1 {
+    margin-top: -50px;
+}
