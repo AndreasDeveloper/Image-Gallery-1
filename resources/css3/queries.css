@@ -1,0 +1,61 @@
+
+
+/* Desktop smaller screens with the maximum width of 900-1049px */
+@media only screen and (max-width: 1049px) {
+
+}
+
+
+
+
+/* Laptop sized devices with the maximum width of 768-899px */
+@media only screen and (max-width: 899px) {
+
+}
+
+
+
+
+/* Medium sized devices (IPAD) with the maximum width of 668-767px */
+@media only screen and (max-width: 767px) {
+
+
+}
+
+
+
+
+
+
+
+/* Smaller Phones (IPHONE 6) with the maximum width of 568-667px */
+@media only screen and (max-width: 667px) {
+
+
+}
+
+
+/* Smallest Phones (IPHONE 5) with the maximum width from 0-567px */
+@media only screen and (max-width: 567px) {
+
+    /* HEADER TEXT */
+    #content1 h1 {
+        font-size: 30px;
+    }
+
+    /* ABOUT SECTION */
+    .c2 h2 {
+        margin-bottom: 30%;
+    }
+
+    .box2 {
+        margin-bottom: 20%;
+    }
+
+    /* QUOTE */
+    #quote5,
+    #quote5 span {
+        font-size: 20px;
+    }
+
+}
